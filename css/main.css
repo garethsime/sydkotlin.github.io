@@ -1,0 +1,150 @@
+/* Generic */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+code {
+    color: #49525e;
+    font-family: 'Roboto Mono', Courier, monospace;
+    font-size: 14px;
+}
+
+pre.highlight {
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 5px;
+}
+
+blockquote {
+    border-left: 4px solid #889;
+    margin-left: 5px;
+    padding-left: 15px;
+    font-style: italic;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: #eef;
+    background-color: #eef;
+}
+
+/* Header */
+
+#header #cover {
+    text-align: center;
+    background: #49525e url('../assets/images/logo_medium.png') no-repeat center center;
+    border-bottom: 2px solid #49525e;
+}
+
+#header #menu {
+    padding: 8px;
+    background: #747a83;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
+
+#header #menu a img {
+    height: 40px;
+    opacity: 0.7;
+}
+
+#header #menu a:hover img {
+    opacity: 0.9;
+}
+
+/* Footer */
+
+#footer {
+    padding: 15px 10px 15px 10px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #49525e;
+    opacity: 0.4;
+}
+
+/* Content */
+
+#content {
+    max-width: 1000px;
+    background: #fff;
+    font-size: 13pt;
+    color: #46555e;
+}
+
+#content a {
+    color: #8da4b2;
+}
+
+/* Sections */
+
+.fixed-width {
+    margin: 0 auto 0 auto;
+}
+
+.clear:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+/* Desktop-only */
+@media only screen and (min-width: 900px) {
+    .fixed-width {
+        max-width: 900px!important;
+    }
+    
+    #header #cover {
+        height: 160px;
+        background-size: 400px 159px;
+    }
+    
+    #header #nav #title {
+        display: inline;
+    }
+    
+    #content {
+        padding: 35px 30px 25px 30px;
+        border-radius: 5px;
+    }
+}
+
+/* Phone-only */
+@media only screen and (min-width: 100px) and (max-width: 900px) {
+    .fixed-width {
+        max-width: 900px!important;
+    }
+    
+    #header #cover {
+        height: 90px;
+        background-size: 200px 80px;
+    }
+    
+    #header #nav #title {
+        display: block;
+    }
+    
+    #content {
+        padding: 15px 20px 15px 20px;
+        border-radius: 0px;
+    }
+}
