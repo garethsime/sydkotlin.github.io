@@ -23,7 +23,7 @@ a:hover {
 code {
     color: #49525e;
     font-family: 'Roboto Mono', Courier, monospace;
-    font-size: 14px;
+    font-size: 14pt;
 }
 
 pre.highlight {
@@ -46,7 +46,7 @@ hr {
     background-color: #eef;
 }
 
-/* Header */
+/* Header/footer */
 
 #header #cover {
     text-align: center;
@@ -57,7 +57,7 @@ hr {
 #header #menu {
     background: #747a83;
     text-align: center;
-    font-size: 15px;
+    font-size: 15pt;
     color: #fff;
 }
 
@@ -67,7 +67,7 @@ hr {
     margin-left: 20px;
     margin-right: 20px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 13pt;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
@@ -83,13 +83,11 @@ hr {
     height: 40px;
 }
 
-/* Footer */
-
 #footer {
-    padding: 15px 10px 15px 10px;
+    padding: 15px 10px 25px 10px;
     display: block;
     text-align: center;
-    font-size: 14px;
+    font-size: 14pt;
     color: #49525e;
     opacity: 0.4;
 }
@@ -98,21 +96,56 @@ hr {
 
 #content {
     max-width: 1000px;
-    background: #fff;
     font-size: 13pt;
     color: #46555e;
 }
 
 #content a {
-    color: #8da4b2;
+    color: #68808e;
 }
 
 /* Sections */
 
+.section {
+  display: block;
+  position: relative;
+  margin: 0 0 5px 0;
+}
+
+.section:first-child {
+  border-top: 0;
+}
+
 .fixed-width {
-    margin: 0 auto 0 auto;
-    clear: both;
-    float: none;
+  margin: 0 auto 0 auto;
+}
+
+/* Content sections */
+
+.section-content {
+  display: block; 
+  padding: 5px 20px 15px 20px;
+}
+
+.section-content a {
+  color: #222;
+  opacity: 0.6;
+}
+
+.section-content a:hover {
+  opacity: 1.0;
+}
+
+a.section-anchor {
+  font-size: 14pt; 
+  color: #aaa;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+a.section-anchor:hover {
+  opacity: 0.8;
+  text-decoration: none;
 }
 
 .clear:after {
@@ -121,7 +154,93 @@ hr {
     display: table;
 }
 
+/* Events */
+
+.event-content {
+    display: block;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #d7d7df;
+}
+
+.event-content hr {
+    margin: 25px 0 15px 0;
+    background: #e7e7ef;
+}
+
+.sidebar-container {
+}
+
+.sidebar-container .left, .sidebar-container .right {
+    display: inline-block; 
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.event-content ul.links {
+    margin: 15px 0 5px 0;
+    padding: 0;
+}
+
+.event-content ul.links li {
+    display: inline-block;
+}
+
+.event-content ul.links li a {
+    margin: 0 2px 4px 0;
+    padding: 5px 8px 5px 8px;
+    background: #eeeeee;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.event-content ul.links li a:hover {
+    background: #e7e7e7;
+}
+
+.event-content .speaker-image {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin-right: 5px; 
+    background: #f5f5fa;
+    border-radius: 3px;
+}
+
+.event-content .speaker-image img {
+    width: 48px;
+    height: 48px;
+    border-radius: 3px;
+}
+
+.event-content .speaker-name {
+    display: inline-block;
+    padding: 4px 0 4px 0;
+    vertical-align: top;
+}
+
+.event-content p {
+    margin: 0;
+    padding: 5px 0 10px 0;
+}
+
+.event-content .upcoming-flag {
+    display: block;
+    position: absolute; 
+    top: 0px; 
+    right: 0px; 
+    padding: 3px 10px 3px 10px; 
+    border-radius: 0 10px 0 10px; 
+    background: #d7d7df; 
+    opacity: 0.5; 
+    font-size: 10pt; 
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
 /* Desktop-only */
+
 @media only screen and (min-width: 900px) {
     .fixed-width {
         max-width: 900px!important;
@@ -147,12 +266,26 @@ hr {
     }
     
     #content {
-        padding: 35px 30px 25px 30px;
+        padding: 25px 30px 15px 30px;
         border-radius: 5px;
+    }
+    
+    .sidebar-container .left, .sidebar-container .right {
+        display: inline-block; 
+    }
+
+    .sidebar-container .left {
+        width: 30%;
+        margin-right: 3%;
+    }
+
+    .sidebar-container .right {
+        width: 67%; 
     }
 }
 
 /* Phone-only */
+
 @media only screen and (min-width: 100px) and (max-width: 900px) {
     .fixed-width {
         max-width: 900px!important;
@@ -168,7 +301,7 @@ hr {
     }
     
     #header #menu {
-        padding: 2px 0 10px 0;
+        padding: 2px 0 5px 0;
     }
     
     #header #menu a {
@@ -180,5 +313,10 @@ hr {
     #content {
         padding: 15px 20px 15px 20px;
         border-radius: 0px;
+    }
+    
+    .sidebar-container .left, .sidebar-container .right {
+        display: block;
+        width: 100%;
     }
 }

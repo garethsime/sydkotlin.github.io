@@ -1,25 +1,30 @@
 - title: "Kotlin Night Sydney"
-  description: >
-    TBD
-
   anchor: kotlin-night-sydney-2017-06
   url: https://www.meetup.com/sydney-kotlin/events/239311719/
-  
-  date: 2017-06-13
-  time: 6pm
-  location: TBD
+  date: 2017-06-13T18:00:00+10
+  description: >
+    We are organising the first ever Kotlin Night in Australia! But the good news don't end there, 
+    this will also be the start of regular meetups for Sydney Kotlin User Group. Come along and 
+    meet other fellow Kotlins in your area.
+    <br/><br/>
+    <em>There will be three talks from members of the local community, all spanning different 
+    application domains. Speakers and topics will be announced around a month before the event.</em>
+
+  location:
+    name: Pivotal Labs
+    address: Level 11, 155 Clarence Street, Sydney
+    url: https://www.google.com.au/maps/place/Pivotal/@-33.8679919,151.2027878,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ae3f3b312871:0x40fe7bd0f94a2249!8m2!3d-33.8679919!4d151.2049818
   
   talks:
-    - title: "TBD"
-      speaker: John Doe
-      description: >
-        TBD
+    - speaker: 
+        name: Sergey Tselovalnikov
+        twitter: SerCeMan
       
-      image: http://google.com
-      
-      links:
-        - title: Slides
-          url: https://docs.google.com/
-        
-        - title: Video
-          url: https://www.youtube.com/
+      title: "Fantastic DSLs and where to find them"
+    
+    - speaker: 
+        name: Mitchell Tilbrook
+        twitter: sir_tilbrook
+    
+    - speaker:
+        name: TBA
