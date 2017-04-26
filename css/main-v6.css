@@ -200,7 +200,6 @@ a.section-anchor:hover {
 }
 
 .event-content .speaker-image {
-    display: inline-block;
     width: 48px;
     height: 48px;
     margin-right: 5px; 
@@ -209,8 +208,8 @@ a.section-anchor:hover {
 }
 
 .event-content .speaker-image img {
-    width: 48px;
-    height: 48px;
+    width: 100%;
+    height: 100%;
     border-radius: 3px;
 }
 
@@ -228,10 +227,10 @@ a.section-anchor:hover {
 .event-content .upcoming-flag {
     display: block;
     position: absolute; 
-    top: 2px; 
-    right: 2px; 
+    top: 1px; 
+    right: 1px; 
     padding: 3px 10px 3px 10px; 
-    border-radius: 0 8px 0 8px; 
+    border-radius: 0 9px 0 9px; 
     background: #d7d7df; 
     opacity: 0.5; 
     font-size: 10pt; 
@@ -282,6 +281,10 @@ a.section-anchor:hover {
     .sidebar-container .right {
         width: 67%; 
     }
+    
+    .event-content .speaker-image {
+        display: inline-block;
+    }
 }
 
 /* Phone-only */
@@ -318,5 +321,9 @@ a.section-anchor:hover {
     .sidebar-container .left, .sidebar-container .right {
         display: block;
         width: 100%;
+    }
+    
+    .event-content .speaker-image {
+        display: none;
     }
 }
