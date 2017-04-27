@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 # Build settings
+timezone: Australia/Sydney
 markdown: kramdown
 baseurl: ""
 url: "https://sydkotlin.space"
