@@ -1,3 +1,53 @@
+- title: "Kotlin Event"
+  anchor: kotlin-event-2016
+  url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/232408253/
+  date: 2016-08-04T18:00:00+10
+  description: >
+    The interest in Kotlin has been growing steadily for the past couple of years, so having done 
+    a few talks as part of the Android meetup, we decided to host a separate event dedicated 
+    entirely to Kotlin. Luckily for us, the VP of Developer Advocacy at JetBrains is coming to 
+    town and we invited him to give a talk. Come along if you’re interested in Kotlin, there 
+    will be interesting talks, pizza, beer and some giveaways.
+  
+  location:
+    name: Atlassian
+    address: Level 6, 341 George Street, Sydney
+    url: https://www.google.com.au/maps/place/Atlassian/@-33.8672619,151.204346,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ae393a03d8ff:0x8fead86f5e91b507!8m2!3d-33.8672619!4d151.20654
+  
+  talks:
+    - speaker:
+        name: Hadi Hariri
+        twitter: hhariri
+    
+      title: A deeper dive into Kotlin
+      description: >
+        In this talk we're going to dive a bit deeper into some powerful aspects of Kotlin that 
+        provide us with great functionality. We're going to cover topics such as delegation, 
+        higher-order extension functions, inline and reified functions, and some other features 
+        that allow us to create DSL for using in our applications. In addition we'll look at some 
+        of the new things coming out in Kotlin 1.1, and in particular Coroutines, Type Aliases,
+        Local Delegation Properties and Inline Properties.
+      
+    - speaker:
+        name: Mike Gouline
+        twitter: mgouline
+      
+      title: Asynchronous Vert.x Applications in Kotlin
+      description: >
+        Looking at web development, Spring seems to be the star of most Kotlin articles and 
+        tutorials. This talk will explore an asynchronous alternative that is Vert.x and evaluate 
+        its production readiness. We’ll do that by writing a simple (but working) web API, with 
+        some neat Kotlin features to boot, and figure out what the benefits of using this 
+        framework are.
+      
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/10cC6WJwu6G0a3ZMoFMoWl_slOHG2JDcswEOQj-5qwco
+        
+        - title: Sources
+          url: https://github.com/mgouline/vertx-kotlin-example
+
+
 - title: "Kotlin Night Sydney"
   anchor: kotlin-night-2017
   url: https://www.meetup.com/sydney-kotlin/events/239311719/
