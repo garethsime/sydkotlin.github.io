@@ -1,5 +1,5 @@
 - title: "Kotlin Night Sydney"
-  anchor: kotlin-night-sydney-2017-06
+  anchor: kotlin-night-2017
   url: https://www.meetup.com/sydney-kotlin/events/239311719/
   date: 2017-06-13T18:00:00+10
   description: >
@@ -25,6 +25,11 @@
     - speaker: 
         name: Mitchell Tilbrook
         twitter: sir_tilbrook
+      
+      title: "TBA - Kotlin Native"
     
     - speaker:
-        name: TBA
+        name: Jeroen Tietema
+        twitter: jtietema
+        
+      title: "TBA - RxJava and Android"
