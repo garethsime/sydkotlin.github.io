@@ -14,8 +14,8 @@ description: Welcome, Kotliners!
 
 <div class="section clear">
 {% for event in site.data.events reversed %}
+<a name="{{ event.anchor }}"></a>
 <div class="event-content">
-    <a name="{{ event.anchor }}"></a>
     <h2><a href="{{ event.url }}" target="_blank">{{ event.title }}</a> <a href="#{{ event.anchor }}" class="section-anchor">#</a></h2>
     <div class="sidebar-container">
         <div class="left">
