@@ -14,10 +14,16 @@
     address: Level 6, 341 George Street, Sydney
     url: https://www.google.com.au/maps/place/Atlassian/@-33.8672619,151.204346,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ae393a03d8ff:0x8fead86f5e91b507!8m2!3d-33.8672619!4d151.20654
   
+  sponsor:
+    name: Atlassian
+    url: https://www.atlassian.com/
+    image: sponsors/atlassian.png
+  
   talks:
     - speaker:
         name: Hadi Hariri
         twitter: hhariri
+        image: profiles/hhariri.jpg
     
       title: A deeper dive into Kotlin
       description: >
@@ -31,6 +37,7 @@
     - speaker:
         name: Mike Gouline
         twitter: mgouline
+        image: profiles/mgouline.jpg
       
       title: Asynchronous Vert.x Applications in Kotlin
       description: >
@@ -61,22 +68,30 @@
     name: Pivotal Labs
     address: Level 11, 155 Clarence Street, Sydney
     url: https://www.google.com.au/maps/place/Pivotal/@-33.8679919,151.2027878,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ae3f3b312871:0x40fe7bd0f94a2249!8m2!3d-33.8679919!4d151.2049818
+
+  sponsor:
+    name: Pivotal
+    url: https://pivotal.io/
+    image: sponsors/pivotal.png
   
   talks:
     - speaker: 
         name: Sergey Tselovalnikov
         twitter: SerCeMan
+        image: profiles/SerCeMan.jpg
       
       title: "Fantastic DSLs and where to find them"
     
     - speaker: 
         name: Mitchell Tilbrook
         twitter: sir_tilbrook
+        image: profiles/sir_tilbrook.jpg
       
       title: "TBA - Kotlin Native"
     
     - speaker:
         name: Jeroen Tietema
         twitter: jtietema
+        image: profiles/jtietema.png
         
       title: "TBA - RxJava and Android"

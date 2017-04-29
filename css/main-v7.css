@@ -67,7 +67,7 @@ hr {
     margin-left: 20px;
     margin-right: 20px;
     font-weight: bold;
-    font-size: 12pt;
+    font-size: 11pt;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
@@ -75,7 +75,7 @@ hr {
 }
 
 #header #menu a:hover {
-    opacity: 0.9;
+    opacity: 1.0;
     text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ hr {
     text-align: center;
     font-size: 10pt;
     color: #49525e;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 /* Content */
@@ -107,45 +107,45 @@ hr {
 /* Sections */
 
 .section {
-  display: block;
-  position: relative;
-  margin: 0 0 5px 0;
+    display: block;
+    position: relative;
+    margin: 0 0 5px 0;
 }
 
 .section:first-child {
-  border-top: 0;
+    border-top: 0;
 }
 
 .fixed-width {
-  margin: 0 auto 0 auto;
+    margin: 0 auto 0 auto;
 }
 
 /* Content sections */
 
 .section-content {
-  display: block; 
-  padding: 5px 20px 15px 20px;
+    display: block; 
+    padding: 5px 20px 15px 20px;
 }
 
 .section-content a {
-  color: #222;
-  opacity: 0.6;
+    color: #222;
+    opacity: 0.7;
 }
 
 .section-content a:hover {
-  opacity: 1.0;
+    opacity: 1.0;
 }
 
 a.section-anchor {
-  font-size: 14pt; 
-  color: #aaa;
-  opacity: 0.5;
-  text-decoration: none;
+    font-size: 12pt; 
+    color: #aaa;
+    opacity: 0.5;
+    text-decoration: none;
 }
 
 a.section-anchor:hover {
-  opacity: 0.8;
-  text-decoration: none;
+    opacity: 0.7;
+    text-decoration: none;
 }
 
 .clear:after {
@@ -154,14 +154,76 @@ a.section-anchor:hover {
     display: table;
 }
 
+.flag-text {
+    font-size: 10pt; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Sponsors */
+
+.sponsors-content {
+    padding: 2px;
+    border-radius: 10px;
+    border: 1px solid #d7d7df;
+    text-align: left;
+}
+
+.sponsors-content .title {
+    display: inline-block;
+    width: 30%;;
+    min-width: 105px;
+    padding: 20px 20px 20px 20px;
+    vertical-align: top;
+    background: #e7e7ef;
+    border-radius: 7px; 
+    box-sizing: border-box;
+}
+
+.sponsors-content .separator {
+    display: inline-block;
+    width: 3%;
+    font-size: 0;
+}
+
+.sponsors-content .items {
+    display: inline-block;
+    width: 67%;
+}
+
+.sponsors-content .item {
+    display: inline-block;
+    padding: 5px 0 5px 0;
+    margin-right: 15px;
+}
+
+.sponsors-content .item img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a.sponsor-item {
+    opacity: 1.0;
+}
+
+a.sponsor-item:hover {
+    opacity: 0.7;
+}
+
+a.sponsor-item img {
+    height: 45px;
+}
+
 /* Events */
 
 .event-content {
+    position: relative;
     display: block;
     padding: 20px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     border-radius: 10px;
-    border: 2px solid #d7d7df;
+    border: 1px solid #d7d7df;
 }
 
 .event-content hr {
@@ -200,6 +262,7 @@ a.section-anchor:hover {
 }
 
 .event-content .speaker-image {
+    display: inline-block;
     width: 48px;
     height: 48px;
     margin-right: 5px; 
@@ -227,15 +290,11 @@ a.section-anchor:hover {
 .event-content .upcoming-flag {
     display: block;
     position: absolute; 
-    top: 1px; 
-    right: 1px; 
-    padding: 3px 10px 3px 10px; 
-    border-radius: 0 9px 0 9px; 
-    background: #d7d7df; 
-    opacity: 0.5; 
-    font-size: 10pt; 
-    font-weight: bold;
-    text-transform: uppercase; 
+    top: 2px; 
+    right: 2px;
+    padding: 4px 10px 4px 10px; 
+    border-radius: 7px;
+    background: #e7e7ef; 
 }
 
 /* Desktop-only */
@@ -281,10 +340,6 @@ a.section-anchor:hover {
     .sidebar-container .right {
         width: 67%; 
     }
-    
-    .event-content .speaker-image {
-        display: inline-block;
-    }
 }
 
 /* Phone-only */
@@ -321,9 +376,5 @@ a.section-anchor:hover {
     .sidebar-container .left, .sidebar-container .right {
         display: block;
         width: 100%;
-    }
-    
-    .event-content .speaker-image {
-        display: none;
     }
 }
