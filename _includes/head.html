@@ -9,19 +9,19 @@
 
 <!-- Open Graph -->
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="{{ page.title }} - {{ site.title }}"/>
+<meta property="og:title" content="{% if page.id != "home" %}{{ page.title }} - {% endif %}{{ site.title }}"/>
 <meta property="og:description" content="{{ page.description }}"/>
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}"/>
 <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/logo_large.png"/>
 
 <!-- Schema.org markup for Google+ -->
-<meta itemprop="name" content="{{ page.title }} - {{ site.title }}"/>
+<meta itemprop="name" content="{% if page.id != "home" %}{{ page.title }} - {% endif %}{{ site.title }}}"/>
 <meta itemprop="description" content="{{ page.description }}"/>
 <meta itemprop="image" content="{{ site.url }}{{ site.baseurl }}/assets/images/logo_large.png"/>
 
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="{{ page.title }} - {{ site.title }}"/>
+<meta name="twitter:title" content="{% if page.id != "home" %}{{ page.title }} - {% endif %}{{ site.title }}"/>
 <meta name="twitter:description" content="{{ page.description }}"/>
 <meta name="twitter:site" content="@{{ site.social_twitter }}"/>
 <meta name="twitter:creator" content="@{{ site.social_twitter }}"/>
