@@ -81,6 +81,13 @@
         image: profiles/SerCeMan.jpg
       
       title: "Fantastic DSLs and where to find them"
+      description: >
+        Kotlin is a very rich language. Unlike many other languages, it allows building another 
+        language inside itself. For example, mimic HTML syntax or construct completely typed SQL 
+        query. But Kotlin’s power isn’t limited to simple DSLs. With some Kotlin-fu, it’s 
+        possible to write a DSL that allows working on untyped data structures in a typed manner.   
+        In this talk, we’ll go through different ways to define a DSL in Kotlin, from very simple 
+        to fantastically powerful.
     
     - speaker:
         name: Jeroen Tietema
