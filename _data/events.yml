@@ -99,3 +99,13 @@
         In this talk we will look at the lessons learned from writing an Android app completely in 
         Kotlin. We will look at the advantages and disadvantages of using Kotlin and how it plays 
         with other technologies used, like RxJava & Realm.
+    
+    - speaker:
+        name: Ander MacArthur
+        twitter: ajmacart
+        image: profiles/ajmacart.png
+      
+      title: "Google I/O summary"
+      description: >
+        We all heard what happened at Google I/O this year... You haven't? This talk will bring you 
+        up to speed and give a summary of all the Kotlin happenings at the conference.
