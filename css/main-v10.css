@@ -48,14 +48,26 @@ hr {
 
 /* Header/footer */
 
+#header {
+    background-color: #49525e;
+}
+
 #header #cover {
+    height: 60px;
+    background: url('../assets/images/logo_repeat.png') repeat-x center 10px;
+    background-size: 90px 50px;
     text-align: center;
-    background: #49525e url('../assets/images/logo_medium.png') no-repeat center center;
-    border-bottom: 2px solid #49525e;
+}
+
+#header #title {
+    padding: 10px 0 10px 0;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
 }
 
 #header #menu {
-    background: #747a83;
+    margin-top: 5px;
     text-align: center;
     font-size: 15pt;
     color: #fff;
@@ -67,7 +79,7 @@ hr {
     margin-left: 20px;
     margin-right: 20px;
     font-weight: bold;
-    font-size: 11pt;
+    font-size: 11.5pt;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
@@ -80,7 +92,7 @@ hr {
 }
 
 #header #menu a img {
-    height: 40px;
+    height: 35px;
 }
 
 #footer {
@@ -303,18 +315,13 @@ a.sponsor-item img {
     .fixed-width {
         max-width: 900px!important;
     }
-    
-    #header #cover {
-        height: 160px;
-        background-size: 400px 159px;
-    }
-    
-    #header #nav #title {
-        display: inline;
-    }
-    
+        
     #header #menu {
         padding: 8px 0 8px 0;
+    }
+    
+    #header #title {
+        font-size: 28pt;
     }
     
     #header #menu a {
@@ -349,17 +356,12 @@ a.sponsor-item img {
         max-width: 900px!important;
     }
     
-    #header #cover {
-        height: 90px;
-        background-size: 200px 80px;
-    }
-    
-    #header #nav #title {
-        display: block;
-    }
-    
     #header #menu {
         padding: 2px 0 5px 0;
+    }
+    
+    #header #title {
+        font-size: 18pt;
     }
     
     #header #menu a {
