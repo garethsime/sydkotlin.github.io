@@ -18,8 +18,8 @@
 timezone: Australia/Sydney
 markdown: kramdown
 baseurl: ""
-# url: "https://sydkotlin.space"
-url: "http://127.0.0.1:4000" # Development
+url: "https://sydkotlin.space"
+# url: "http://127.0.0.1:4000" # Development
 # url: "http://10.0.2.2:4000" # Android emulator
 # url: "http://10.0.3.2:4000" # Genymotion emulator
 
