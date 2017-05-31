@@ -393,4 +393,8 @@ a.sponsor-item img {
         display: block;
         width: 100%;
     }
+    
+    .sidebar-container .left {
+        margin-bottom: 8px;
+    }
 }
