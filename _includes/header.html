@@ -1,7 +1,10 @@
 <div id="header">
-    <div id="cover" title="{{ site.title }}">&nbsp;</div>
-    <div id="title" class="fixed-width">
-        {{ site.title | upcase }}
+    <div id="cover" class="fixed-width" style="">
+        <img src="./assets/images/logo_medium.png" id="logo" />
+        <div id="title">
+            <span>{{ site.title | upcase }}</span>
+            <span>{{ site.subtitle | upcase }}</span>
+        </div>
     </div>
     <div id="menu">
         <div class="fixed-width">
