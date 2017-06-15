@@ -88,6 +88,13 @@
         possible to write a DSL that allows working on untyped data structures in a typed manner.   
         In this talk, we’ll go through different ways to define a DSL in Kotlin, from very simple 
         to fantastically powerful.
+      
+      links:
+          - title: Slides
+            url: http://serce.me/talk-fantastic-dsls/
+          
+          - title: Source
+            url: https://github.com/SerCeMan/talk-fantastic-dsls-example
     
     - speaker:
         name: Jeroen Tietema
@@ -99,6 +106,10 @@
         In this talk we will look at the lessons learned from writing an Android app completely in 
         Kotlin. We will look at the advantages and disadvantages of using Kotlin and how it plays 
         with other technologies used, like RxJava & Realm.
+      
+      links:
+          - title: Slides
+            url: /materials/2017-06-14-2/index.html
     
     - speaker:
         name: Ander MacArthur
