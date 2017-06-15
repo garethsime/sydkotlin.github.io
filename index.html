@@ -21,7 +21,7 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
             &nbsp;
         </span><span class="items">
             {% for sponsor in site.data.sponsors %}
-            <a href="{{ sponsor.url }}" title="{{ sponsor.name }}" target="_blank" class="item sponsor-item" ><img src="{{ site.url }}{{ site.baseurl }}/assets/{{ sponsor.image }}"/></a>
+            <a href="{{ sponsor.url }}" title="{{ sponsor.name }}" target="_blank" class="item sponsor-item" ><img src="/assets/{{ sponsor.image }}"/></a>
             {% endfor %}
         </span>
         
@@ -48,7 +48,7 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
                 
                 {% if event.sponsor %}
                 <p>
-                    <a href="{{ event.sponsor.url }}" title="{{ event.sponsor.name }}" target="_blank" class="sponsor-item"><img src="{{ site.url }}{{ site.baseurl }}/assets/{{ event.sponsor.image }}"/></a>
+                    <a href="{{ event.sponsor.url }}" title="{{ event.sponsor.name }}" target="_blank" class="sponsor-item"><img src="/assets/{{ event.sponsor.image }}"/></a>
                 </p>
                 {% endif %}
                 
@@ -62,7 +62,7 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
             <div class="left">
                 <div class="speaker-image">
                     {% if talk.speaker.twitter %}
-                    <img src="{{ site.url }}{{ site.baseurl }}/assets/{{ talk.speaker.image }}" title="{{ talk.speaker.name }}" />
+                    <img src="/assets/{{ talk.speaker.image }}" title="{{ talk.speaker.name }}" />
                     {% endif %}
                 </div>
                 <div class="speaker-name">

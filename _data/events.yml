@@ -116,6 +116,10 @@
         twitter: ajmacart
         image: profiles/ajmacart.jpg
       
+      links:
+          - title: Slides
+            url: https://docs.google.com/presentation/d/1rxOqytRjb9S2aF0E995Fn49kin3qU7uu7D-0rCkSkLI
+      
       title: "Google I/O summary"
       description: >
         We all heard what happened at Google I/O this year... You haven't? This talk will bring you 
