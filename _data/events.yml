@@ -116,11 +116,14 @@
         twitter: ajmacart
         image: profiles/ajmacart.jpg
       
-      links:
-          - title: Slides
-            url: https://docs.google.com/presentation/d/1rxOqytRjb9S2aF0E995Fn49kin3qU7uu7D-0rCkSkLI
-      
-      title: "Google I/O summary"
+      title: "Google I/O 2017 Recap"
       description: >
         We all heard what happened at Google I/O this year... You haven't? This talk will bring you 
         up to speed and give a summary of all the Kotlin happenings at the conference.
+        
+      links:
+          - title: Video
+            url: https://www.youtube.com/watch?v=BvYNOB1QUUo
+      
+          - title: Slides
+            url: https://docs.google.com/presentation/d/1rxOqytRjb9S2aF0E995Fn49kin3qU7uu7D-0rCkSkLI
