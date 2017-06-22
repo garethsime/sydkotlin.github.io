@@ -25,7 +25,7 @@
         twitter: hhariri
         image: profiles/hhariri.jpg
     
-      title: A deeper dive into Kotlin
+      title: A Deeper Dive into Kotlin
       description: >
         In this talk we're going to dive a bit deeper into some powerful aspects of Kotlin that 
         provide us with great functionality. We're going to cover topics such as delegation, 
@@ -80,7 +80,7 @@
         twitter: SerCeMan
         image: profiles/SerCeMan.jpg
       
-      title: "Fantastic DSLs and where to find them"
+      title: "Fantastic DSLs and Where to Find Them"
       description: >
         Kotlin is a very rich language. Unlike many other languages, it allows building another 
         language inside itself. For example, mimic HTML syntax or construct completely typed SQL 
@@ -108,6 +108,9 @@
         with other technologies used, like RxJava & Realm.
       
       links:
+          - title: Video
+            url: https://www.youtube.com/watch?v=dnGX8NU0aKc
+        
           - title: Slides
             url: /materials/2017-06-14-2/index.html
     
