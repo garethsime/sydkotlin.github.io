@@ -17,6 +17,7 @@
 # Build settings
 timezone: Australia/Sydney
 markdown: kramdown
+baseurl: ""
 
 # Content
 title: "Sydney Kotlin"
