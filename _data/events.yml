@@ -54,7 +54,6 @@
         - title: Sources
           url: https://github.com/mgouline/vertx-kotlin-example
 
-
 - title: "Kotlin Night Sydney"
   anchor: kotlin-night-2017
   url: https://www.meetup.com/sydney-kotlin/events/239311719/
@@ -133,3 +132,64 @@
       
           - title: Slides
             url: https://docs.google.com/presentation/d/1rxOqytRjb9S2aF0E995Fn49kin3qU7uu7D-0rCkSkLI
+
+- title: "Meetup August 2017"
+  anchor: meetup-august-2017
+  url: https://www.meetup.com/sydney-kotlin/events/242135635/
+  date: 2017-08-14T18:00:00+10
+  description: >
+    We're back with the first regular meetup for Sydney Kotlin User Group! While sharing the venue 
+    with NDC Sydney 2017 this time around, we're also sharing one of their speakers - Hadi Hariri 
+    - whose talk will be sandwiched between his 'Introduction to Kotlin' and 'Advanced Kotlin' full-day 
+    workshops for the conference. Two other talks will be sourced from the local Android and JVM 
+    communities.
+
+  location:
+    name: Hilton Sydney
+    address: 488 George St, Sydney
+    url: https://www.google.com.au/maps/place/Hilton+Sydney/@-33.8718413,151.2056924,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ae3ef48720f1:0xe4cb86124df9b798!8m2!3d-33.8718413!4d151.2078864
+
+  sponsor:		
+    name: NDC Sydney
+    url: http://ndcsydney.com/
+    image: sponsors/ndcsydney.png
+  
+  talks:
+    - speaker: 
+        name: Hadi Hariri
+        twitter: hhariri
+        image: profiles/hhariri.jpg
+      
+      title: "Asynchronous Programming with Kotlin"
+      description: >
+        Kotlin’s approach to asynchronous programming is about giving developers the freedom to 
+        choose what fits best. By leveraging the conventions of the language and its ability to be 
+        somewhat extended by using simple functions, Kotlin provides an asynchronous model by 
+        implementing coroutines, and provides a series of out of the box functionality such as 
+        yield, async/await as part of the standard library. In this session we’re going to see 
+        how all of this works and how Kotlin even provides us the ability to implement our own 
+        asynchronous functionality.
+      
+      links:
+    
+    - speaker:
+        name: Neal Maloney
+        twitter: tali3san
+        image: profiles/tali3san.jpg
+        
+      title: "TBD"
+      description: >
+        TBD
+      
+      links:
+    
+    - speaker:
+        name: Erik Pragt
+        twitter: epragt
+        image: profiles/epragt.jpeg
+      
+      title: "TBD"
+      description: >
+        TBD
+        
+      links:
