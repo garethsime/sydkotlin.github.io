@@ -187,7 +187,9 @@
         twitter: epragt
         image: profiles/epragt.jpeg
       
-      title: "TBD"
+      title: "Kotlin with Spring Boot 2"
       description: >
+        Based on an Reactive application, Erik will show the benefits of using Kotlin in the 
+        backend using Spring Boot 2 and Spring 5.
         
       links:
