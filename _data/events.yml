@@ -177,8 +177,11 @@
         twitter: tali3san
         image: profiles/tali3san.jpg
         
-      title: "TBD"
+      title: "Kotlin after 20 years as a Java developer or: How I learned to stop worrying and love type inference"
       description: >
+        This talk will discuss things I’ve learned moving from Java to Kotlin. Example code for a 
+        Bluetooth LE driver in both Java and Kotlin (with RxJava) demonstrating the advantages with Kotlin and 
+        some of the things that took a little getting used to.
       
       links:
     
