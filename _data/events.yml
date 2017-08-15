@@ -171,6 +171,8 @@
         asynchronous functionality.
       
       links:
+          - title: Slides
+            url: /materials/2017-08-14-2/coroutines.pdf
     
     - speaker:
         name: Erik Pragt
@@ -183,3 +185,6 @@
         backend using Spring Boot 2 and Spring 5.
         
       links:
+          - title: Slides
+            url: /materials/2017-08-14-1/spring-boot-2.pdf
+
