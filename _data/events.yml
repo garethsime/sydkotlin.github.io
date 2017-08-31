@@ -101,7 +101,7 @@
     - speaker:
         name: Jeroen Tietema
         twitter: jtietema
-        image: profiles/jtietema.png
+        image: profiles/jtietema.jpg
         
       title: "A 100% Kotlin on Android"
       description: >
@@ -177,7 +177,7 @@
     - speaker:
         name: Erik Pragt
         twitter: epragt
-        image: profiles/epragt.jpeg
+        image: profiles/epragt.jpg
       
       title: "Kotlin with Spring Boot 2"
       description: >
@@ -190,3 +190,50 @@
           
           - title: Source
             url: https://github.com/bodiam/kotlin-meetup
+
+- title: "YOW! Night - Svetlana Isakova"
+  anchor: yow-night-2017-svetlana-isakova
+  url: https://www.eventbrite.com.au/e/yow-night-2017-sydney-svetlana-isakova-sept-26-tickets-36476095985
+  date: 2017-09-26T18:30:00+10
+  description: >
+    We're helping organise the next YOW! Night in Sydney and it's a must-attend for anyone interested in 
+    Kotlin. Here's your chance to meet Svetlana Isakova, a developer and author who actually works on 
+    the language and wrote a book on it.
+
+  location:
+    name: Commonwealth Bank Place
+    address: 11 Harbour Street, Darling Harbour
+    url: https://www.google.com.au/maps/place/South+Building,+Commonwealth+Bank+Darling+Quarter/@-33.8751462,151.203463,19.06z/data=!4m8!1m2!2m1!1sCommonwealth+Bank+Place+!3m4!1s0x0:0xc1acadf25f37cb40!8m2!3d-33.87491!4d151.2030671
+
+  sponsor:		
+    name: YOW! Conferences & Workshops
+    url: http://yowconference.com.au/
+    image: sponsors/yow.png
+  
+  talks:
+    - speaker: 
+        name: Svetlana Isakova
+        twitter: sveta_isakova
+        image: profiles/sveta_isakova.jpg
+      
+      title: "You Can Do Better With Kotlin"
+      description: >
+        This YOW! Night is devoted to the Kotlin programming language. It’s a modern language that gives more 
+        power in everyday routines and is gaining popularity amongst the Java developer community.
+        <p/>
+        Kotlin code generally looks cleaner and nicer, and it’s much easier to work with when you have less 
+        verbosity or code duplication. But what’s even more important, is that Kotlin is 100% compatible 
+        with all existing Java frameworks, and has good tooling (it’s from JetBrains after all).
+        <p/>
+        Our agenda for the night consists of three parts:
+        <ul>
+        <li>Introduction to the language</li>
+        <li>Introduction to Kotlin Coroutines</li>
+        <li>Practical sides of Java interop</li>
+        </ul>
+        <p/>
+        At first, we'll discuss what makes Kotlin so attractive to developers and cover the most important 
+        features of the language. Then, we'll talk about coroutines, a new powerful feature, that changes 
+        your habits of writing asynchronous code. The last part is aimed mainly at people who already have 
+        some experience with Kotlin and dives into some internals of mixing Java and Kotlin code in one 
+        project.
