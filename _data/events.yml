@@ -188,6 +188,9 @@
         backend using Spring Boot 2 and Spring 5.
         
       links:
+          - title: Video
+            url: https://www.youtube.com/watch?v=5zGznI6gtOo
+          
           - title: Slides
             url: /materials/2017-08-14-1/spring-boot-2.pdf
           
@@ -240,3 +243,52 @@
         your habits of writing asynchronous code. The last part is aimed mainly at people who already have 
         some experience with Kotlin and dives into some internals of mixing Java and Kotlin code in one 
         project.
+
+- title: "Meetup - October 2017"
+  anchor: meetup-october-2017
+  url: https://www.meetup.com/sydney-kotlin/events/243878323/
+  date: 2017-10-11T18:00:00+11
+  description: >
+    Welcome back for another meetup! This month we're borrowing Manuel Chakravarty from the Haskell and 
+    Swift communities to discuss the benefits of having strong types, and one of our regulars, Dariusz 
+    Lorenc, is going to explain what the Application Continuum is. Come along and meet other fellow 
+    Kotliners in your area.
+
+  location:
+    name: Pivotal Labs
+    address: Level 11, 155 Clarence Street, Sydney
+    url: https://www.google.com.au/maps/place/Pivotal/@-33.8679919,151.2027878,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ae3f3b312871:0x40fe7bd0f94a2249!8m2!3d-33.8679919!4d151.2049818		
+
+  sponsor:		
+    name: Pivotal		
+    url: https://pivotal.io/		
+    image: sponsors/pivotal.png
+  
+  talks:
+    - speaker: 
+        name: Manuel Chakravarty
+        twitter: tacticalgrace
+        image: profiles/tacticalgrace.jpg
+      
+      title: "A Type is Worth a Thousand Tests"
+      description: >
+        In this talk, I will explain the advantages of a strong commitment to a sophisticated type system. 
+        I will illustrate the impact on language and program design through a series of examples, drawn from 
+        my experience of developing one of the first Swift-based applications published in the Mac App Store 
+        and illustrated by walking through key design issues in a simple iOS app. I will discuss why 
+        type-driven design benefits from functional programming principles, and also, how it allows us to 
+        write less tests without a loss of confidence in our code.
+    
+    - speaker:
+        name: Dariusz Lorenc
+        twitter: d_lorenc
+        image: profiles/d_lorenc.jpg
+      
+      title: "Application Continuum"
+      description: >
+        Abstract: The Application Continuum is a spectrum of system architecture, showing the evolution of 
+        a distributed system starting from a single application and evolving into several applications and 
+        services. This tool will help you to make conscious design decisions and potentially reduce the cost 
+        of changing code as the system needs to evolve. The continuum is language agnostic and applies to 
+        any modern programming language, however, the provided examples will be all in Kotlin. So if you 
+        like Kotlin, and enjoy a bit of monolith-vs-microservices discussion, please join us!
