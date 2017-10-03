@@ -89,14 +89,14 @@
         to fantastically powerful.
       
       links:
-          - title: Video
-            url: https://www.youtube.com/watch?v=YmU_gFtao_k
+        - title: Video
+          url: https://www.youtube.com/watch?v=YmU_gFtao_k
         
-          - title: Slides
-            url: http://serce.me/talk-fantastic-dsls/
+        - title: Slides
+          url: http://serce.me/talk-fantastic-dsls/
           
-          - title: Source
-            url: https://github.com/SerCeMan/talk-fantastic-dsls-example
+        - title: Source
+          url: https://github.com/SerCeMan/talk-fantastic-dsls-example
     
     - speaker:
         name: Jeroen Tietema
@@ -110,11 +110,11 @@
         with other technologies used, like RxJava & Realm.
       
       links:
-          - title: Video
-            url: https://www.youtube.com/watch?v=dnGX8NU0aKc
+        - title: Video
+          url: https://www.youtube.com/watch?v=dnGX8NU0aKc
         
-          - title: Slides
-            url: /materials/2017-06-14-2/index.html
+        - title: Slides
+          url: /materials/2017-06-14-2/index.html
     
     - speaker:
         name: Ander MacArthur
@@ -127,11 +127,11 @@
         up to speed and give a summary of all the Kotlin happenings at the conference.
         
       links:
-          - title: Video
-            url: https://www.youtube.com/watch?v=BvYNOB1QUUo
+        - title: Video
+          url: https://www.youtube.com/watch?v=BvYNOB1QUUo
       
-          - title: Slides
-            url: https://docs.google.com/presentation/d/1rxOqytRjb9S2aF0E995Fn49kin3qU7uu7D-0rCkSkLI
+        - title: Slides
+          url: https://docs.google.com/presentation/d/1rxOqytRjb9S2aF0E995Fn49kin3qU7uu7D-0rCkSkLI
 
 - title: "Meetup - August 2017"
   anchor: meetup-august-2017
@@ -171,11 +171,11 @@
         asynchronous functionality.
       
       links:
-          - title: Video
-            url: https://www.youtube.com/watch?v=eVxi3BGE5Rc
+        - title: Video
+          url: https://www.youtube.com/watch?v=eVxi3BGE5Rc
           
-          - title: Slides
-            url: /materials/2017-08-14-2/coroutines.pdf
+        - title: Slides
+          url: /materials/2017-08-14-2/coroutines.pdf
     
     - speaker:
         name: Erik Pragt
@@ -188,14 +188,14 @@
         backend using Spring Boot 2 and Spring 5.
         
       links:
-          - title: Video
-            url: https://www.youtube.com/watch?v=5zGznI6gtOo
+        - title: Video
+          url: https://www.youtube.com/watch?v=5zGznI6gtOo
           
-          - title: Slides
-            url: /materials/2017-08-14-1/spring-boot-2.pdf
+        - title: Slides
+          url: /materials/2017-08-14-1/spring-boot-2.pdf
           
-          - title: Source
-            url: https://github.com/bodiam/kotlin-meetup
+        - title: Source
+          url: https://github.com/bodiam/kotlin-meetup
 
 - title: "YOW! Night - Svetlana Isakova"
   anchor: yow-night-2017-svetlana-isakova
@@ -243,6 +243,10 @@
         your habits of writing asynchronous code. The last part is aimed mainly at people who already have 
         some experience with Kotlin and dives into some internals of mixing Java and Kotlin code in one 
         project.
+      
+      links:
+        - title: Slides
+          url: http://yowconference.com.au/slides/yownights/201709SvetlanaIsakova.pdf
 
 - title: "Meetup - October 2017"
   anchor: meetup-october-2017
