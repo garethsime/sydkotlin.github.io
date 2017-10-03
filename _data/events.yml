@@ -286,7 +286,7 @@
       
       title: "Application Continuum"
       description: >
-        Abstract: The Application Continuum is a spectrum of system architecture, showing the evolution of 
+        The Application Continuum is a spectrum of system architecture, showing the evolution of 
         a distributed system starting from a single application and evolving into several applications and 
         services. This tool will help you to make conscious design decisions and potentially reduce the cost 
         of changing code as the system needs to evolve. The continuum is language agnostic and applies to 
