@@ -284,15 +284,8 @@
         write less tests without a loss of confidence in our code.
     
     - speaker:
-        name: Dariusz Lorenc
-        twitter: d_lorenc
-        image: profiles/d_lorenc.jpg
+        name: Mitchell Tilbrook
+        twitter: sir_tilbrook
+        image: profiles/sir_tilbrook.jpg
       
-      title: "Application Continuum"
-      description: >
-        The Application Continuum is a spectrum of system architecture, showing the evolution of 
-        a distributed system starting from a single application and evolving into several applications and 
-        services. This tool will help you to make conscious design decisions and potentially reduce the cost 
-        of changing code as the system needs to evolve. The continuum is language agnostic and applies to 
-        any modern programming language, however, the provided examples will be all in Kotlin. So if you 
-        like Kotlin, and enjoy a bit of monolith-vs-microservices discussion, please join us!
+      title: "TBA"
