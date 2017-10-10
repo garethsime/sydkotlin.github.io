@@ -288,4 +288,9 @@
         twitter: sir_tilbrook
         image: profiles/sir_tilbrook.jpg
       
-      title: "TBA"
+      title: "Kotlin Backstage"
+      description: >
+        Kotlin offers a more modern language design over Java, while still being fully interoperable: 
+        data classes, properties, delegation, inline functions, string interpolation and much more. 
+        But what does all this syntactic surger translate to? In this talk, we will take a look at some of 
+        the bytecode that Kotlin generates to support our sweet tooth.
