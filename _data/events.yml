@@ -282,6 +282,10 @@
         and illustrated by walking through key design issues in a simple iOS app. I will discuss why 
         type-driven design benefits from functional programming principles, and also, how it allows us to 
         write less tests without a loss of confidence in our code.
+
+      links:
+          - title: Slides
+            url: /materials/2017-10-11-2/one-type-thousand-tests.pdf
     
     - speaker:
         name: Mitchell Tilbrook
