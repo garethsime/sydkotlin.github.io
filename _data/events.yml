@@ -254,8 +254,8 @@
   date: 2017-10-11T18:00:00+11
   description: >
     Welcome back for another meetup! This month we're borrowing Manuel Chakravarty from the Haskell and 
-    Swift communities to discuss the benefits of having strong types, and one of our regulars, Dariusz 
-    Lorenc, is going to explain what the Application Continuum is. Come along and meet other fellow 
+    Swift communities to discuss the benefits of having strong types, and one of our co-organisers, Mitchell
+    Tilbrook, is going to explain what decompiled Kotlin code looks like. Come along and meet other fellow 
     Kotliners in your area.
 
   location:
@@ -264,8 +264,8 @@
     url: https://www.google.com.au/maps/place/Pivotal/@-33.8679919,151.2027878,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ae3f3b312871:0x40fe7bd0f94a2249!8m2!3d-33.8679919!4d151.2049818		
 
   sponsor:		
-    name: Pivotal		
-    url: https://pivotal.io/		
+    name: Pivotal
+    url: https://pivotal.io/
     image: sponsors/pivotal.png
   
   talks:
@@ -298,3 +298,22 @@
         data classes, properties, delegation, inline functions, string interpolation and much more. 
         But what does all this syntactic surger translate to? In this talk, we will take a look at some of 
         the bytecode that Kotlin generates to support our sweet tooth.
+
+- title: "KotlinConf 2017 Recap"
+  anchor: kotlinconf-2017-recap
+  url: https://www.meetup.com/sydney-kotlin/events/
+  date: 2017-11-29T18:00:00+11
+  description: >
+    The beginning of this month marked the first ever KotlinConf in San Francisco and a few people from the 
+    Sydney community were lucky enough to attend in person. Before the month is out, they will use the last
+    meetup of the year to share their experiences and recap some of the interesting talks they witnessed.
+
+  location:
+    name: Pivotal Labs
+    address: Level 5, 155 Clarence Street, Sydney
+    url: https://www.google.com.au/maps/place/Tyro+Payments+Limited/@-33.8680148,151.202812,17z/data=!3m1!4b1!4m5!3m4!1s0x1b48b74369714df:0x69024bba69d9b057!8m2!3d-33.8680148!4d151.2050007
+
+  sponsor:    
+    name: Tyro   
+    url: https://www.tyro.com/
+    image: sponsors/tyro.png
