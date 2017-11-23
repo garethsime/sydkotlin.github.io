@@ -304,9 +304,9 @@
   url: https://www.meetup.com/sydney-kotlin/events/245276595/
   date: 2017-11-29T18:00:00+11
   description: >
-    The beginning of this month marked the first ever KotlinConf in San Francisco and a few people from the 
-    Sydney community were lucky enough to attend in person. Before the month is out, they will use the last
-    meetup of the year to share their experiences and recap some of the interesting talks they witnessed.
+    The beginning of this month marked the first ever KotlinConf in San Francisco and we'll use the last 
+    meetup of the year to recap some of the more interesting talks from the conference. Simon Gerber from 
+    Tyro will also give a talk about his fancy parser combinators.
 
   location:
     name: Tyro
