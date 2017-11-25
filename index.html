@@ -56,23 +56,21 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
         <hr/>
         <div class="sidebar-container" style="margin-bottom:10px;">
             <div class="left">
+                {% if talk.speaker.url %}<a href="{{ talk.speaker.url }}">{% endif %}
+                <h3 class="speaker-name">{{ talk.speaker.name }}</h3>
+                {% if talk.speaker.url %}</a>{% endif %}
+                <div class="speaker-title flag-text">{{ talk.speaker.title }}</div>
+                {% if talk.speaker.image %}
                 <div class="speaker-image">
-                    {% if talk.speaker.twitter %}
                     <img src="{{ site.baseurl }}/assets/{{ talk.speaker.image }}" title="{{ talk.speaker.name }}" />
-                    {% endif %}
                 </div>
-                <div class="speaker-name">
-                    <b>{{ talk.speaker.name }}</b></br>
-                    <small>{% if talk.speaker.twitter %}<a href="https://twitter.com/{{ talk.speaker.twitter }}" title="Twitter">@{{ talk.speaker.twitter }}</a>{% endif %}</small>
-                </div>
+                {% endif %}
             </div><div class="right">
-                <p>
-                    {% if talk.title %}
-                    <b>{{ talk.title }}</b>                
-                    {% else %}
-                    To be announced
-                    {% endif %}
-                </p>
+                {% if talk.title %}
+                <h3>{{ talk.title }}</h3>
+                {% else %}
+                <p>To be announced</p>
+                {% endif %}
                 {% if talk.description %}
                 <p>{{ talk.description }}</p>
                 {% endif %}

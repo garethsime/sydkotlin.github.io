@@ -280,14 +280,26 @@ a.sponsor-item img {
     background: #e7e7e7;
 }
 
+.event-content .speaker-title {
+    display: block;
+    font-size: 8pt;
+    color: #b6b5ce;
+}
+
+.event-content .speaker-name {
+    display: block;
+    font-size: 14pt;
+    padding: 4px 4px 2px 0;
+}
+
 .event-content .speaker-image {
-    display: inline-block;
+    display: block;
     width: 48px;
     height: 48px;
-    margin-right: 5px; 
+    margin-top: 10px;
     background: #f5f5fa;
     border-radius: 50px;
-	border: 1px dotted #e7e7ef;
+    border: 1px dotted #e7e7ef;
 }
 
 .event-content .speaker-image img {
@@ -296,15 +308,13 @@ a.sponsor-item img {
     border-radius: 50px;
 }
 
-.event-content .speaker-name {
-    display: inline-block;
-    padding: 4px 0 4px 0;
-    vertical-align: top;
-}
-
-.event-content p {
+.event-content p, 
+.event-content h1,
+.event-content h2,
+.event-content h3,
+.event-content h4 {
     margin: 0;
-    padding: 5px 0 10px 0;
+    padding: 2px 0 8px 0;
 }
 
 .event-content .upcoming-flag {

@@ -22,7 +22,8 @@
   talks:
     - speaker:
         name: Hadi Hariri
-        twitter: hhariri
+        title: JetBrains
+        url: https://twitter.com/hhariri
         image: profiles/hhariri.jpg
     
       title: A Deeper Dive into Kotlin
@@ -36,7 +37,8 @@
       
     - speaker:
         name: Mike Gouline
-        twitter: mgouline
+        title: Organiser
+        url: https://twitter.com/mgouline
         image: profiles/mgouline.jpg
       
       title: Asynchronous Vert.x Applications in Kotlin
@@ -76,7 +78,8 @@
   talks:
     - speaker: 
         name: Sergey Tselovalnikov
-        twitter: SerCeMan
+        title: Canva
+        url: https://twitter.com/SerCeMan
         image: profiles/SerCeMan.jpg
       
       title: "Fantastic DSLs and Where to Find Them"
@@ -100,7 +103,8 @@
     
     - speaker:
         name: Jeroen Tietema
-        twitter: jtietema
+        title: Invoice2go
+        url: https://twitter.com/jtietema
         image: profiles/jtietema.jpg
         
       title: "A 100% Kotlin on Android"
@@ -118,7 +122,8 @@
     
     - speaker:
         name: Ander MacArthur
-        twitter: ajmacart
+        title: Cochlear
+        url: https://twitter.com/ajmacart
         image: profiles/ajmacart.jpg
       
       title: "Google I/O 2017 Recap"
@@ -157,7 +162,8 @@
   talks:
     - speaker: 
         name: Hadi Hariri
-        twitter: hhariri
+        title: JetBrains
+        url: https://twitter.com/hhariri
         image: profiles/hhariri.jpg
       
       title: "Asynchronous Programming with Kotlin"
@@ -179,7 +185,8 @@
     
     - speaker:
         name: Erik Pragt
-        twitter: epragt
+        title: Organiser
+        url: https://twitter.com/epragt
         image: profiles/epragt.jpg
       
       title: "Kotlin with Spring Boot 2"
@@ -219,7 +226,8 @@
   talks:
     - speaker: 
         name: Svetlana Isakova
-        twitter: sveta_isakova
+        title: JetBrains
+        url: https://twitter.com/sveta_isakova
         image: profiles/sveta_isakova.jpg
       
       title: "You Can Do Better With Kotlin"
@@ -271,7 +279,8 @@
   talks:
     - speaker: 
         name: Manuel Chakravarty
-        twitter: tacticalgrace
+        title: Functional Wizard
+        url: https://twitter.com/tacticalgrace
         image: profiles/tacticalgrace.jpg
       
       title: "A Type is Worth a Thousand Tests"
@@ -289,7 +298,8 @@
     
     - speaker:
         name: Mitchell Tilbrook
-        twitter: sir_tilbrook
+        title: Organiser
+        url: https://twitter.com/sir_tilbrook
         image: profiles/sir_tilbrook.jpg
       
       title: "Kotlin Backstage"
@@ -317,3 +327,27 @@
     name: Tyro   
     url: https://www.tyro.com/
     image: sponsors/tyro.png
+
+  talks:
+    - speaker: 
+        name: Simon Gerber
+        title: Tyro
+        url: https://www.linkedin.com/in/simon-gerber-07b51485
+        image: profiles/sgerber.jpg
+      
+      title: "Parsing Fancy - Parser Combinators in Kotlin"
+      description: >
+        An exceptionally brief primer on domain specific languages (DSLs) and context-free grammar. We will 
+        then implement a DSL using parser combinators, live, on-stage!
+    
+    - speaker:
+        name: Mike Gouline
+        title: Organiser
+        url: https://twitter.com/mgouline
+        image: profiles/mgouline.jpg
+      
+      title: "KotlinConf 2017 Recap"
+      description: >
+        Summary of the better talks, the more interesting themes, some conversations with other Kotliners 
+        and overall impressions about the first ever Kotlin conference in San Francisco. Think of it as your
+        guide to what recorded talks to watch first.
