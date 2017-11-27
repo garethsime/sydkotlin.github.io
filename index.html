@@ -48,8 +48,13 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
                 </p>
                 {% endif %}
                 
-            </div><div class="right">
+            </div><div class="right event-description">
                 <p>{{ event.description }}</p>
+                <ul class="links">
+                    <li class="register-flag" date="{{ event.date | date: "%s" }}" style="display:none;">
+                        <a href="{{ event.url }}" target="_blank" class="flag-text" ">Register</a>
+                    </li>
+                </ul>
             </div>
         </div>
         {% for talk in event.talks %}
@@ -92,14 +97,18 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
 <script>
 
 $(document).ready(function() {
-    $(".upcoming-flag").each(function(index, elem) {
+    $(".upcoming-flag").each(function(index, elem) { toggleDatedElem(elem); });
+
+    $(".register-flag").each(function(index, elem) { toggleDatedElem(elem); });
+
+    function toggleDatedElem(elem) {
         var rawDate = parseInt($(elem).attr('date'))
         if (!isNaN(rawDate)) {
             var date = new Date(0);
             date.setSeconds(rawDate);
             $(elem).toggle(date > new Date());
         }
-    });
+    }
 })
 
 </script>
