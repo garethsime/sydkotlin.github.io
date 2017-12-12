@@ -53,7 +53,7 @@
         - title: Slides
           url: https://docs.google.com/presentation/d/10cC6WJwu6G0a3ZMoFMoWl_slOHG2JDcswEOQj-5qwco
         
-        - title: Sources
+        - title: Source
           url: https://github.com/mgouline/vertx-kotlin-example
 
 - title: "Kotlin Night Sydney"
@@ -339,6 +339,13 @@
       description: >
         An exceptionally brief primer on domain specific languages (DSLs) and context-free grammar. We will 
         then implement a DSL using parser combinators, live, on-stage!
+
+      links:
+        - title: Slides
+          url: /materials/2017-11-29-2/parsing-fancy.pdf
+
+        - title: Source
+          url: https://github.com/sigerber/parsing-fancy_kotlin
     
     - speaker:
         name: Mike Gouline
