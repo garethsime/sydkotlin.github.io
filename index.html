@@ -24,6 +24,12 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
     </fieldset>
 
     {% for event in site.data.events reversed %}
+    {% if event.announcement %}
+
+    <div class="event-announcement">{{ event.announcement }}</div>
+
+    {% else %}
+    
     <a name="{{ event.anchor }}" style="display:block; padding-top:5px"></a>
     
     <div class="event-content">
@@ -90,6 +96,7 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
         </div>
         {% endfor %}
     </div>
+    {% endif %}
     {% endfor %}
     
 </div>

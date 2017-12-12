@@ -236,6 +236,14 @@ a.sponsor-item img {
 
 /* Events */
 
+.event-announcement {
+    display: block;
+    padding: 25px 10px 22px 10px;
+    font-size: 13pt;
+    text-transform: uppercase;
+    text-align: center; 
+}
+
 .event-content {
     position: relative;
     display: block;
