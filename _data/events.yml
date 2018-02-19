@@ -363,4 +363,48 @@
         - title: Slides
           url: https://docs.google.com/presentation/d/1KAX68C8LF3DF7ORSTz9Rh9Y0CmftJwQr4O5xhShjSxQ
 
-- announcement: "Next meetup: February 2018"
+- title: "Meetup - March 2018"
+  anchor: meetup-march-2018
+  url: https://www.meetup.com/sydney-kotlin/events/247968958/
+  date: 2018-03-08T18:00:00+11
+  description: >
+    Happy new year (we know it's been a couple of months) and welcome to the first meetup of 2018! Come along 
+    and meet other fellow Kotliners in your area.
+
+  location:
+    name: Pivotal Labs
+    address: Level 11, 155 Clarence Street, Sydney
+    url: https://www.google.com.au/maps/place/Pivotal/@-33.8679919,151.2027878,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ae3f3b312871:0x40fe7bd0f94a2249!8m2!3d-33.8679919!4d151.2049818    
+
+  sponsor:    
+    name: Pivotal
+    url: https://pivotal.io/
+    image: sponsors/pivotal.png
+  
+  talks:
+    - speaker: 
+        name: Dariusz Lorenc
+        title: Pivotal
+        url: https://twitter.com/d_lorenc
+        image: profiles/d_lorenc.jpg
+      
+      title: "Application Continuum"
+      description: >
+        The Application Continuum is a spectrum of system architecture, showing the evolution of 
+        a distributed system starting from a single application and evolving into several applications and 
+        services. This tool will help you to make conscious design decisions and potentially reduce the cost 
+        of changing code as the system needs to evolve. The continuum is language agnostic and applies to 
+        any modern programming language, however, the provided examples will be all in Kotlin. So if you 
+        like Kotlin, and enjoy a bit of monolith-vs-microservices discussion, please join us!
+    
+    - speaker:
+        name: Jacob Bass
+        title: Ordermentum
+        url: https://twitter.com/bassjacob
+        image: profiles/bassjacob.jpg
+      
+      title: "Introduction to Arrow"
+      description: >
+        Funktionale and Kategory have merged into Arrow, consolidating two of the most popular FP libraries in 
+        the Kotlin space into one powerhouse. This talk is an introduction to some FP concepts, how the libraries 
+        work, what features they bring to the table and where you might use them in your code.
