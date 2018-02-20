@@ -408,3 +408,13 @@
         Funktionale and Kategory have merged into Arrow, consolidating two of the most popular FP libraries in 
         the Kotlin space into one powerhouse. This talk is an introduction to some FP concepts, how the libraries 
         work, what features they bring to the table and where you might use them in your code.
+
+    - speaker:
+        name: Erik Pragt
+        title: Organiser
+        url: https://twitter.com/epragt
+        image: profiles/epragt.jpg
+      
+      title: "Kotlin Ketchup"
+      description: >
+        Quick segment making a condiment of all of the Kotlin-related news that happened since our last meetup.
