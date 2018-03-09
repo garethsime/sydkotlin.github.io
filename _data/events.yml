@@ -409,6 +409,10 @@
         the Kotlin space into one powerhouse. This talk is an introduction to some FP concepts, how the libraries 
         work, what features they bring to the table and where you might use them in your code.
 
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/e/2PACX-1vTQQ7qdN2s3jKs3Tp1mtTLipepQpbbMsl1EAjuYaKjziIuhmrhjuXCgxzjwUVCUG0ilDxWCtojlLu87/pub
+
     - speaker:
         name: Erik Pragt
         title: Organiser
@@ -418,3 +422,7 @@
       title: "Kotlin Ketchup"
       description: >
         Quick segment making a condiment of all of the Kotlin-related news that happened since our last meetup.
+
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/1ZWnHJ7-JQTuRfHqlNO3iRm7X8nDXuCdwejgdOt4Td_k/edit
