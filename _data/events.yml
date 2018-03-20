@@ -399,6 +399,10 @@
         of changing code as the system needs to evolve. The continuum is language agnostic and applies to 
         any modern programming language, however, the provided examples will be all in Kotlin. So if you 
         like Kotlin, and enjoy a bit of monolith-vs-microservices discussion, please join us!
+
+      links:
+        - title: Slides
+          url: http://deck.appcontinuum.io/
     
     - speaker:
         name: Jacob Bass
