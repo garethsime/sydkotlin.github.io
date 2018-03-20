@@ -341,6 +341,9 @@
         then implement a DSL using parser combinators, live, on-stage!
 
       links:
+        - title: Video
+          url: https://www.youtube.com/watch?v=lHRC84sc4P0
+
         - title: Slides
           url: /materials/2017-11-29-2/parsing-fancy.pdf
 
