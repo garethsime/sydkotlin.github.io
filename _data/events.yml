@@ -293,6 +293,9 @@
         write less tests without a loss of confidence in our code.
 
       links:
+          - title: Video
+            url: https://www.youtube.com/watch?v=qJJCfSqmWkA
+          
           - title: Slides
             url: /materials/2017-10-11-2/one-type-thousand-tests.pdf
     
