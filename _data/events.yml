@@ -436,3 +436,21 @@
       links:
         - title: Slides
           url: https://docs.google.com/presentation/d/1ZWnHJ7-JQTuRfHqlNO3iRm7X8nDXuCdwejgdOt4Td_k/edit
+
+- title: "Meetup - April 2018"
+  anchor: meetup-april-2018
+  url: https://www.meetup.com/sydney-kotlin/events/249381035/
+  date: 2018-04-19T18:00:00+10
+  description: >
+    Getting back to the normal cadence, the next meetup is in April. Come along and meet other fellow 
+    Kotliners in your area.
+
+  location:
+    name: Tyro
+    address: Level 5, 155 Clarence Street, Sydney
+    url: https://www.google.com.au/maps/place/Tyro+Payments+Limited/@-33.8680148,151.202812,17z/data=!3m1!4b1!4m5!3m4!1s0x1b48b74369714df:0x69024bba69d9b057!8m2!3d-33.8680148!4d151.2050007
+
+  sponsor:    
+    name: Tyro   
+    url: https://www.tyro.com/
+    image: sponsors/tyro.png
