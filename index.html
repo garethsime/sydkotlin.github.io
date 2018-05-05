@@ -30,10 +30,10 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
 
     {% else %}
     
-    <a name="{{ event.anchor }}" style="display:block; padding-top:5px"></a>
+    <a name="{{ event.id }}" style="display:block; padding-top:5px"></a>
     
     <div class="event-content">
-        <h2><a href="{{ event.url }}" target="_blank">{{ event.title }}</a> <a href="#{{ event.anchor }}" class="section-anchor">#</a></h2>
+        <h2><a href="{{ event.url }}" target="_blank">{{ event.title }}</a> <a href="#{{ event.id }}" class="section-anchor">#</a></h2>
         <div class="sidebar-container">
             <div class="left">
                 <p>
@@ -58,7 +58,7 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
                 <p>{{ event.description }}</p>
                 <ul class="links">
                     <li class="register-flag" date="{{ event.date | date: "%s" }}" style="display:none;">
-                        <a href="{{ event.url }}" target="_blank" class="flag-text" ">Register</a>
+                        <a href="{{ event.url }}" target="_blank" class="flag-text">Register</a>
                     </li>
                 </ul>
             </div>
