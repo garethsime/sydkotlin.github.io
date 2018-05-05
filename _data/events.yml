@@ -1,5 +1,5 @@
-- title: "Kotlin Event"
-  anchor: kotlin-event-2016
+- id: kotlin-event-2016
+  title: "Kotlin Event"
   url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/232408253/
   date: 2016-08-04T18:00:00+10
   description: >
@@ -56,8 +56,8 @@
         - title: Source
           url: https://github.com/mgouline/vertx-kotlin-example
 
-- title: "Kotlin Night Sydney"
-  anchor: kotlin-night-2017
+- id: kotlin-night-2017
+  title: "Kotlin Night Sydney"
   url: https://www.meetup.com/sydney-kotlin/events/239311719/
   date: 2017-06-14T18:00:00+10
   description: >
@@ -68,11 +68,11 @@
   location:
     name: Pivotal Labs
     address: Level 11, 155 Clarence Street, Sydney
-    url: https://www.google.com.au/maps/place/Pivotal/@-33.8679919,151.2027878,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ae3f3b312871:0x40fe7bd0f94a2249!8m2!3d-33.8679919!4d151.2049818		
+    url: https://www.google.com.au/maps/place/Pivotal/@-33.8679919,151.2027878,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ae3f3b312871:0x40fe7bd0f94a2249!8m2!3d-33.8679919!4d151.2049818
 
-  sponsor:		
-    name: Pivotal		
-    url: https://pivotal.io/		
+  sponsor:
+    name: Pivotal
+    url: https://pivotal.io/
     image: sponsors/pivotal.png
   
   talks:
@@ -138,8 +138,8 @@
         - title: Slides
           url: https://docs.google.com/presentation/d/1rxOqytRjb9S2aF0E995Fn49kin3qU7uu7D-0rCkSkLI
 
-- title: "Meetup - August 2017"
-  anchor: meetup-august-2017
+- id: meetup-august-2017
+  title: "Meetup - August 2017"
   url: https://www.meetup.com/sydney-kotlin/events/242135635/
   date: 2017-08-14T18:00:00+10
   description: >
@@ -154,7 +154,7 @@
     address: 488 George St, Sydney
     url: https://www.google.com.au/maps/place/Hilton+Sydney/@-33.8718413,151.2056924,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ae3ef48720f1:0xe4cb86124df9b798!8m2!3d-33.8718413!4d151.2078864
 
-  sponsor:		
+  sponsor:
     name: NDC Sydney
     url: http://ndcsydney.com/
     image: sponsors/ndcsydney.png
@@ -204,8 +204,8 @@
         - title: Source
           url: https://github.com/bodiam/kotlin-meetup
 
-- title: "YOW! Night - Svetlana Isakova"
-  anchor: yow-night-2017-svetlana-isakova
+- id: yow-night-2017-svetlana-isakova
+  title: "YOW! Night - Svetlana Isakova"
   url: https://www.eventbrite.com.au/e/yow-night-2017-sydney-svetlana-isakova-sept-26-tickets-36476095985
   date: 2017-09-26T18:30:00+10
   description: >
@@ -218,7 +218,7 @@
     address: 11 Harbour Street, Darling Harbour
     url: https://www.google.com.au/maps/place/South+Building,+Commonwealth+Bank+Darling+Quarter/@-33.8751462,151.203463,19.06z/data=!4m8!1m2!2m1!1sCommonwealth+Bank+Place+!3m4!1s0x0:0xc1acadf25f37cb40!8m2!3d-33.87491!4d151.2030671
 
-  sponsor:		
+  sponsor:
     name: YOW! Conferences & Workshops
     url: http://yowconference.com.au/
     image: sponsors/yow.png
@@ -256,8 +256,8 @@
         - title: Slides
           url: http://yowconference.com.au/slides/yownights/201709SvetlanaIsakova.pdf
 
-- title: "Meetup - October 2017"
-  anchor: meetup-october-2017
+- id: meetup-october-2017
+  title: "Meetup - October 2017"
   url: https://www.meetup.com/sydney-kotlin/events/243878323/
   date: 2017-10-11T18:00:00+11
   description: >
@@ -269,9 +269,9 @@
   location:
     name: Pivotal Labs
     address: Level 11, 155 Clarence Street, Sydney
-    url: https://www.google.com.au/maps/place/Pivotal/@-33.8679919,151.2027878,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ae3f3b312871:0x40fe7bd0f94a2249!8m2!3d-33.8679919!4d151.2049818		
+    url: https://www.google.com.au/maps/place/Pivotal/@-33.8679919,151.2027878,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ae3f3b312871:0x40fe7bd0f94a2249!8m2!3d-33.8679919!4d151.204981
 
-  sponsor:		
+  sponsor:
     name: Pivotal
     url: https://pivotal.io/
     image: sponsors/pivotal.png
@@ -312,8 +312,8 @@
         But what does all this syntactic surger translate to? In this talk, we will take a look at some of 
         the bytecode that Kotlin generates to support our sweet tooth.
 
-- title: "Meetup - November 2017"
-  anchor: meetup-november-2017
+- id: meetup-november-2017
+  title: "Meetup - November 2017"
   url: https://www.meetup.com/sydney-kotlin/events/245276595/
   date: 2017-11-29T18:00:00+11
   description: >
@@ -369,8 +369,8 @@
         - title: Slides
           url: https://docs.google.com/presentation/d/1KAX68C8LF3DF7ORSTz9Rh9Y0CmftJwQr4O5xhShjSxQ
 
-- title: "Meetup - March 2018"
-  anchor: meetup-march-2018
+- id: meetup-march-2018
+  title: "Meetup - March 2018"
   url: https://www.meetup.com/sydney-kotlin/events/247968958/
   date: 2018-03-08T18:00:00+11
   description: >
@@ -437,7 +437,44 @@
         - title: Slides
           url: https://docs.google.com/presentation/d/1ZWnHJ7-JQTuRfHqlNO3iRm7X8nDXuCdwejgdOt4Td_k/edit
 
-- announcement: >
-    April meetup has been moved to May!
-    <br/>
-    <small>Stay tuned for the date</small>
+- id: meetup-may-2018
+  title: "Meetup - May 2018"
+  url: https://www.meetup.com/sydney-kotlin/events/250479628/
+  date: 2018-05-23T18:00:00+11
+  description: >
+    Having resolved April's scheduling woes, the next meetup is now confirmed for May. And what a line-up we have on offer: 
+    one special overseas guest and one cancelled talk from last year that never got re-scheduled until now.
+
+  location:
+    name: Airtasker
+    address: Level 3, 71 York Street, Sydney
+    url: https://goo.gl/maps/oFsE4sL3qgM2
+
+  sponsor:    
+    name: Airtasker
+    url: https://www.airtasker.com
+    image: sponsors/airtasker.png
+  
+  talks:
+    - speaker: 
+        name: Sven Ruppert
+        title: Vaadin
+        url: https://twitter.com/SvenRuppert
+        image: profiles/svenruppert.jpg
+      
+      title: "Vaadin on Kotlin"
+      description: >
+        We will see how we can migrate a Vaadin App from Java to Kotlin. Step by step we will transform the code of an app 
+        to see the difference. What are the easy parts, what looks like a little bit more work?
+    
+    - speaker:
+        name: Neal Maloney
+        title: Cochlear
+        url: https://www.linkedin.com/in/neal-maloney-815a895
+        image: profiles/tali3san.jpg
+      
+      title: "Kotlin and Bluetooth LE"
+      description: >
+        Exploring how Kotlin can improve the size, simplicity and maintainability of Android Bluetooth LE code, from reducing 
+        boilerplate, simplifying control structures, and using coroutines. Creating a solid Bluetooth LE driver in just a few 
+        pages of code.
