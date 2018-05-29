@@ -420,6 +420,9 @@
         work, what features they bring to the table and where you might use them in your code.
 
       links:
+        - title: Video
+          url: https://youtu.be/tM2wEI-e80E
+
         - title: Slides
           url: https://docs.google.com/presentation/d/e/2PACX-1vTQQ7qdN2s3jKs3Tp1mtTLipepQpbbMsl1EAjuYaKjziIuhmrhjuXCgxzjwUVCUG0ilDxWCtojlLu87/pub
 
@@ -466,6 +469,10 @@
       description: >
         We will see how we can migrate a Vaadin App from Java to Kotlin. Step by step we will transform the code of an app 
         to see the difference. What are the easy parts, what looks like a little bit more work?
+
+      links:
+        - title: Video
+          url: https://youtu.be/z7xR0RtJcRU
     
     - speaker:
         name: Neal Maloney
@@ -478,3 +485,7 @@
         Exploring how Kotlin can improve the size, simplicity and maintainability of Android Bluetooth LE code, from reducing 
         boilerplate, simplifying control structures, and using coroutines. Creating a solid Bluetooth LE driver in just a few 
         pages of code.
+      
+      links:
+        - title: Video
+          url: https://youtu.be/vmIfxBGPxXU
