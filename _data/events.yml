@@ -473,6 +473,12 @@
       links:
         - title: Video
           url: https://youtu.be/z7xR0RtJcRU
+        
+        - title: Slides
+          url: https://github.com/Java-Events/20180523_KotlinUG_Sydney-Vaadin-on-Kotlin/tree/master/_data
+        
+        - title: Source
+          url: https://github.com/Java-Events/20180523_KotlinUG_Sydney-Vaadin-on-Kotlin
     
     - speaker:
         name: Neal Maloney
