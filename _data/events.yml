@@ -495,3 +495,9 @@
       links:
         - title: Video
           url: https://youtu.be/vmIfxBGPxXU
+        
+        - title: Slides
+          url: /materials/2018-05-23-2/kotlin-bluetooth.pdf
+        
+        - title: Source
+          url: https://github.com/tali3san/kotlin-bluetooth
