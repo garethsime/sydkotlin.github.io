@@ -501,3 +501,22 @@
         
         - title: Source
           url: https://github.com/tali3san/kotlin-bluetooth
+
+- id: meetup-june-2018
+  title: "Meetup - June 2018"
+  url: https://www.meetup.com/sydney-kotlin/events/251868152/
+  date: 2018-06-27T18:00:00+11
+  description: >
+    It's already been one year since we started Sydney Kotlin User Group, let that sink in! This will be our first anniversary 
+    meetup with two great talks, as always, and some reflection on the past events, so think about some feedback that you can 
+    contribute.
+
+  location:
+    name: Tyro
+    address: Level 5, 155 Clarence Street, Sydney
+    url: https://www.google.com.au/maps/place/Tyro+Payments+Limited/@-33.8680148,151.202812,17z/data=!3m1!4b1!4m5!3m4!1s0x1b48b74369714df:0x69024bba69d9b057!8m2!3d-33.8680148!4d151.2050007
+
+  sponsor:    
+    name: Tyro   
+    url: https://www.tyro.com/
+    image: sponsors/tyro.png
