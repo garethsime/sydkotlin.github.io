@@ -520,3 +520,25 @@
     name: Tyro   
     url: https://www.tyro.com/
     image: sponsors/tyro.png
+
+  talks:
+    - speaker: 
+        name: Sergey Tselovalnikov
+        title: Canva
+        url: https://twitter.com/SerCeMan
+        image: profiles/SerCeMan.jpg
+      
+      title: "Distributed Tracing - Know Your Enemy"
+      description: >
+        <i>TBA</i>
+
+    - speaker:
+        name: Ruslan Ibragimov
+        title: Cochlear
+        url: https://twitter.com/cpprib
+        image: profiles/cpprib.jpg
+      
+      title: "Writing Gradle in Kotlin"
+      description: >
+        This talk covers all you need to know to migrate your Gradle scripts from Groovy to Kotlin. The richer syntax of Kotlin 
+        makes your build scripts and utility methods more readable and who really wants to be writing Groovy?
