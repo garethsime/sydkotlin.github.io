@@ -530,7 +530,10 @@
       
       title: "Distributed Tracing - Know Your Enemy"
       description: >
-        <i>TBA</i>
+        Modern web applications consist of multiple services often deployed on hundreds of different machines. This allows them to 
+        be scalable, evolve quickly, deploy often. However, these distributed architectures contain new challenges for debugging. 
+        Luckily for us, there is a solution - distributed tracing. In this talk, I'll go through the experience of integrating 
+        distributed tracing at Canva, the decisions we made and the challenges we faced.
 
     - speaker:
         name: Ruslan Ibragimov
