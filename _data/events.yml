@@ -534,6 +534,10 @@
         be scalable, evolve quickly, deploy often. However, these distributed architectures contain new challenges for debugging. 
         Luckily for us, there is a solution - distributed tracing. In this talk, I'll go through the experience of integrating 
         distributed tracing at Canva, the decisions we made and the challenges we faced.
+      
+      links:
+        - title: Slides
+          url: /materials/2018-06-27-2/distributed-tracing.pdf
 
     - speaker:
         name: Ruslan Ibragimov
