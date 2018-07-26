@@ -549,3 +549,7 @@
       description: >
         This talk covers all you need to know to migrate your Gradle scripts from Groovy to Kotlin. The richer syntax of Kotlin 
         makes your build scripts and utility methods more readable and who really wants to be writing Groovy?
+      
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/1tggdMkEsMO6Pf9qEbMUgD1-HjUGXQW1kvPpYflajaCw
