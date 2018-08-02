@@ -553,3 +553,34 @@
       links:
         - title: Slides
           url: https://docs.google.com/presentation/d/1tggdMkEsMO6Pf9qEbMUgD1-HjUGXQW1kvPpYflajaCw
+
+- id: meetup-august-2018
+  title: "Meetup - August 2018"
+  url: https://www.meetup.com/sydney-kotlin/events/253400140/
+  date: 2018-08-15T18:00:00+11
+  description: >
+    Last meetup of winter is this month, folks, and it's in a new venue with a new sponsor. Two talks, as usual, one from an 
+    organiser and another from an external guest, should be a fun night.
+
+  location:
+    name: Servian
+    address: Level 36, 60 Margaret Street, Sydney
+    url: https://goo.gl/maps/6pAi5rnmxLx
+
+  sponsor:    
+    name: Servian   
+    url: https://www.servian.com/
+    image: sponsors/servian.png
+
+  talks:
+    - speaker: 
+        name: Mike Gouline
+        title: Organiser
+        url: https://twitter.com/mgouline
+        image: profiles/mgouline.jpg
+
+    - speaker:
+        name: John-Paul Costales
+        title: Lookahead
+        url: https://twitter.com/jpcostales
+        image: profiles/jpcostales.png
