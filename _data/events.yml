@@ -585,6 +585,13 @@
         Data science, statistical analysis and machine learning are largely Python domains, but with many performance-focused 
         implementations based on the JVM, Kotlin has a good chance to break into this scene too. The intention of this talk is
         to give a shallow overview of what you can do today.
+      
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/15O_WyB-ffuJEdtlkoXJKQcnr_2Dsi-SmNQdHYAGfwP8
+    
+        - title: Source
+          url: https://github.com/mgouline/kotlin-data-demos
 
     - speaker:
         name: John-Paul Costales
