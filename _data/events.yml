@@ -608,3 +608,40 @@
       links:
         - title: Slides
           url: /materials/2018-08-15-1/changing-career-direction.pdf
+
+- id: meetup-october-2018
+  title: "Meetup - October 2018"
+  url: https://www.meetup.com/sydney-kotlin/events/255007560/
+  date: 2018-10-24T18:00:00+11
+  description: >
+    Time for the next meetup and we're back to the host that started it all (even before we were a separate user group) - 
+    Atlassian. The two talks cover a broad spectrum, between just starting out with Kotlin and attempting circuit 
+    breaking, something for everyone.
+
+  location:
+    name: Atlassian
+    address: Level 29, 363 George Street, Sydney
+    url: https://goo.gl/maps/HQ2kWJC1uHP2
+
+  sponsor:    
+    name: Atlassian   
+    url: https://www.atlassian.com/
+    image: sponsors/atlassian.png
+
+  talks:
+    - speaker: 
+        name: Gareth Sime
+        title: Atlassian
+        url: https://twitter.com/GarethSime
+        image: profiles/GarethSime.jpeg
+      
+      title: "Circuit Breakers with Resilience4J"
+
+    - speaker:
+        name: Evgeny Trushin
+        title: Beginner
+        url: https://www.linkedin.com/in/evgeny-trushin/
+        image: profiles/evgeny-trushin.jpeg
+      
+      title: "Learning Kotlin: A Trial-and-Error Approach"
+      
