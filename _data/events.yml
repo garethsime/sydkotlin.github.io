@@ -636,6 +636,9 @@
         image: profiles/GarethSime.jpeg
       
       title: "Circuit Breakers with Resilience4J"
+      description: >
+        This short talk is an introduction to Circuit Breakers. We'll use Resilience4J to add a circuit breaker to an
+        example Spring Boot + Kotlin application and then watch its behaviour as errors are encountered.
 
     - speaker:
         name: Evgeny Trushin
